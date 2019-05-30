@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>Modal</title>
+</head>
+
+<body>
+    <section id="modal">
+        <div class="main">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/sm/1.jpg" data-index="0" data-img="1.jpg" data-msg="Nature and sunrise">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/sm/2.jpg" data-index="1" data-img="2.jpg" data-msg="Snow">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/sm/3.jpg" data-index="2" data-img="3.jpg" data-msg="Mountains and fjords">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/sm/4.jpg" data-index="3" data-img="4.jpg" data-msg="Northern Lights">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal_content">
+            <div class="cover"></div>
+            <div class="slider">
+                <img src="img/lg/1.jpg">
+                <p>Nature and sunrise</p>
+
+                <span class="nav" id="right_i">
+                    <i class="fas fa-chevron-right"></i>
+                </span>
+                <span class="nav" id="left_i">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+                <div class="navigation">
+                    <div class="item" data-img="1.jpg" data-msg="Nature and sunrise">
+                        <img src="img/sm/1.jpg">
+                        <div class="cover_item active"></div>
+                    </div>
+                    <div class="item" data-img="2.jpg" data-msg="Snow">
+                        <img src="img/sm/2.jpg">
+                        <div class="cover_item"></div>
+                    </div>
+                    <div class="item" data-img="3.jpg" data-msg="Mountains and fjords">
+                        <img src="img/sm/3.jpg">
+                        <div class="cover_item"></div>
+                    </div>
+                    <div class="item" data-img="4.jpg" data-msg="Northern Lights">
+                        <img src="img/sm/4.jpg">
+                        <div class="cover_item"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
