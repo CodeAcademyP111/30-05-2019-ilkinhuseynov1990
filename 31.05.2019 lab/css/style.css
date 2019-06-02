@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: fonta;
+    src: url("../font/fontawesome-webfont.woff2");
+}
+
+
+#header .header-content{
+    width: 100%;
+    height: 100px;
+    border-bottom: thin solid silver;
+    position: absolute;
+    top:0;
+    padding: 1%;
+    z-index: 9999;
+}
+
+
+#header .cover{
+    width: 100%;
+    height: 87.8%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+#header .header-content .logo_text a{
+    color: #fff;
+    font-size: 1.7em;
+    text-decoration: none;
+
+}
+
+
+#header .header-content ul.menu{
+    list-style: none;
+    width: 100%;
+}
+
+#header .header-content ul.menu li{
+    float: left;
+    margin-right: 4%;
+}
+
+#header .header-content ul.menu li a{
+    color: #e0dede;
+    text-decoration: none;
+}
+
+#header .header-content ul.menu li a.active{
+    color:#fff;
+}
+
+#header .header-content ul.menu li a.btn-primary.btn1{
+    padding: 10px 25px;
+}
+
+
+#header .slider_img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#header .slider_img img{
+    width: 100%;
+}
+
+#header .slider_img .slider_content{
+    position: absolute;
+    top:40%;
+    left:16%;
+    z-index:2;
+}
+
+
+#header .slider_img .slider_content h1{
+    color:#fff;
+    font-weight: 100;
+    font-size:50px;
+}
+
+#header .slider_img .slider_content h5{
+    color:#fff;
+    font-weight: 100;
+    line-height: 2;
+    word-spacing: 5px;
+    font-size:35px;
+    margin-bottom: 3%;
+}
+
+
+#header .slider_img .slider_content a{
+    text-decoration: none;
+    display: inline-block;
+    border:2px solid #fff;
+    width: 150px;
+    text-align: center;
+    padding:2%;
+    color:#fff;
+    margin-right: 5px;
+}
+
+
+#header .mybutton{
+    position: absolute;
+    top:45%;
+    color:#fff;
+    font-size:30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+#header .mybutton.left{
+    left:70px;
+    visibility: hidden;
+}
+
+#header .mybutton.right{
+right:70px;
+}
+
+
+.activeslide{
+    display: block !important;
+}
+
+
+
+.margin-5{
+    margin-top:5%;
+}
+
+.main .meeting h2{
+    color:#676A77;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    
+}
+
+
+.main .meeting .meeting_text p{
+    font-size: 1.2em;
+    color: #919598;
+}
+
+
+.main .meeting_img{
+    width: 500px;
+    height:350px;
+}
+.main .meeting_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.main .smile{
+    text-align:center;
+    font-size: 3em;
+    color:#0881FC;
+}
+
+p.count-text {
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #707579;
+    text-align: center;
+}
+
+.main .timer{
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    color: #212529;
+}
